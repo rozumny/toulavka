@@ -1,0 +1,44 @@
+.home {
+    background-color: colors($colors,primary);
+    
+    scroll-content {
+        overflow-y: hidden !important;
+    }
+
+    .languages img {
+        padding: 10px 7px;
+    }
+
+    .cover-image {
+        background: url("../../assets/img/4b.jpg") no-repeat 35% 10%;
+        background-size: cover;
+        height: 100%;
+        background-position: 50% 40%;
+    }
+    // .cover-title {
+    //     text-align: center;
+    //     font-size: 35px;
+    //     color: white;
+    //     position: absolute;
+    //     right: 15%;
+    //     top: 10%;
+    // }
+   
+}
+
+ .map {
+        height:56px;
+        width: 100%;
+        background: url("../../assets/mapa.jpg") no-repeat;
+        background-size: cover;
+        background-position: 47% 48%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.footer {
+    background-color: colors($colors,primary);
+    color: colors($colors,dark);
+}

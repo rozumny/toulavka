@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <!--<ion-nav-back-button class="button-clear">
+      <i class="ion-arrow-left-c"></i>
+    </ion-nav-back-button>-->
+    <!--<button ion-button menuToggle right>
+      <ion-icon name="menu"></ion-icon>
+    </button>-->
+    <ion-title>{{poi.title[language]}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content id="scrollId">
+  <div padding class="poiDetail" [style.height]="isHeight ? '100%' : 'inherit'" id="innerId">
+    <div [innerHTML]="poi.description[language]"></div>
+    <br/>
+    <div *ngFor="let image of poi.images">
+      <img src="assets/img/{{image}}">
+    </div>
+  </div>
+</ion-content>
