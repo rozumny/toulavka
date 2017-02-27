@@ -22,7 +22,6 @@ export class PointService {
         images: ["1.jpg", "1b.jpg"]
       },
       {
-        lat: 49.0032003, lng: 15.2546836,
         title: {
           en: "",
           cs: "Staré Město pod Landštejnem"
@@ -85,7 +84,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: "Jedna z největších zaniklých obcí České Kanady, leží u hranic s Rakouskem u rakouské vesnici Klein Taxen. Můžeme zde vidět zbytky sklepů, studní, rozvaliny domů a zbytky zahrad. Největším torzem je památník obětem 1.světové války. V jarním období zde můžete spatřit koberce sněženek a bledulí. Další zaniklé obce jsou staroměstské : Kuní, Dětříš, Pernárec, Romava, Rajchéřov, Staré Hutě, Košlák, Lužánky a Arnolec. Novobystřické : Mnich, Mýtinky a Obora. Slavonická Lešnice. Více na www……. <br/><br/>Leží na : cyklotrase 1007 A, Flora – fauna, Požární zbrojnice."
+          cs: "Jedna z největších zaniklých obcí České Kanady, leží u hranic s Rakouskem u rakouské vesnici Klein Taxen. Můžeme zde vidět zbytky sklepů, studní, rozvaliny domů a zbytky zahrad. Největším torzem je památník obětem 1.světové války. V jarním období zde můžete spatřit koberce sněženek a bledulí. Další zaniklé obce jsou staroměstské : Kuní, Dětříš, Pernárec, Romava, Rajchéřov, Staré Hutě, Košlák, Lužánky a Arnolec. Novobystřické : Mnich, Mýtinky a Obora. Slavonická Lešnice. Více na www.ceskakanadazive.cz. <br/><br/>Leží na : cyklotrase 1007 A, Flora – fauna, Požární zbrojnice."
         },
         images: ["7.jpg", "7b.png"]
       }, {
@@ -206,7 +205,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: "V České Kanadě bylo také významné židovské osídlení, sahající do počátku 17.století. V lesích nad Markvarcem se nachází romantický hřbitov z roku 1794. Další židovské hřbitovy se nachází ve Starém Městě pod Landštejnem, Nové Bystřici, Dolním Bolíkově, Olšanech a Jindřichově Hradci. Budova synagogy se zachovala v Jindřichově Hradci a Slavonicích. Více o ostatních židovských památkách jindřichohradecka na www……………."
+          cs: "V České Kanadě bylo také významné židovské osídlení, sahající do počátku 17.století. V lesích nad Markvarcem se nachází romantický hřbitov z roku 1794. Další židovské hřbitovy se nachází ve Starém Městě pod Landštejnem, Nové Bystřici, Dolním Bolíkově, Olšanech a Jindřichově Hradci. Budova synagogy se zachovala v Jindřichově Hradci a Slavonicích. Více o ostatních židovských památkách jindřichohradecka na www.ceskakanadazive.cz."
         },
         images: ["18.jpg", "18b.jpg"]
       }, {
@@ -316,7 +315,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: ""
+          cs: "Přímo v srdci České Kanady pod hradem a přehradou Landštejn ideální zázemí pro poznávání našeho krásného okolí. Pro ubytování v Cyklocampu můžete zvolit jak chaty, apartmány, tak stany či karavany. Chatky jsou čtyřlůžkové nebo dvoulůžkové a každá chata má vlastní elektrické osvětlení. Kromě ubytování poskytuje kemp plné sociální zázemí, možnost stravy či rychlého občerstvení a řadu možností pro aktivní odpočinek. V areálu půjčovna a servis kol, lanový park, paintbal, víceúčelová tělocvična a wifi. V blízkosti přírodní koupaliště.<br/><br/>www.cyklocamp.cz"
         },
         images: ["28.jpg"]
       }, {
@@ -327,7 +326,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: ""
+          cs: "V místě bývalého renesančního panského statku a ovčína přímo pod hradem Landštejn bylo vybudováno rychlé občerstvení, které se využívalo pro koncerty.<br/><br/>Nyní je tu areál hotelu s 11 pokoji (37 lůžek) , který poskytuje široké spektrum služeb a restaurace zaměřenou na českou kuchyni a rybí speciality.<br/><br/>www.landstejn.cz"
         },
         images: []
       }, {
@@ -338,7 +337,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: ""
+          cs: "V centru obce info-kavárna s wifi, kde Vám poskytneme jak informace, propagační materiály tak i malé občerstvení s kávou, točené pivo na zahrádce.<br/><br/>Připravíme Vám poznávání České Kanady na míru.<br/><br/>Staré Město pod Landštejnem č.p. 39, 378 82<br/><br/>www.ceskakanadazive.cz"
         },
         images: []
       }
