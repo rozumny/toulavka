@@ -6,10 +6,44 @@
     }
 
     .cover-image {
-        background: url("../../assets/img/4b.jpg") no-repeat 35% 10%;
+        background: url("../../assets/background.png") no-repeat 50% -15%;
         background-size: cover;
         height: 100%;
+    }
+
+    .cover-image2 {
+        background: url("../../assets/banner.png") no-repeat;
+        background-position: center top;
+        background-size: 100% 200px;
+        height: 100%;
+    }
+    
+    .description {
+        z-index:2;
+        color:white;
+        background-color: #f38130;
+        padding: 10px;
+        font-size:12px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .descHolder {
+        position: absolute;
+        bottom: 0;
+    }
+
+     .cover-card {
+        background: url("../../assets/card.png") no-repeat 35% 10%;
         background-position: 50% 40%;
+    }
+
+    .menu {
+        position:absolute;
+        color:white;
+        top: 13px;
+        right: 17px;
+        font-size: 24px;
     }
 }
 

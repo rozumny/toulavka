@@ -9,6 +9,14 @@ export var APP_TRANSLATIONS: { [key: string]: { [key: string]: string } } = {
     },
     description2: {
         en: "",
-        cs: "<span class='bold'>Hrajte s Toulavkou.</span> Na místech označených xxx barvou (sem doplníme to odlišení) získejte brožuru s mapou k pokladu na sbírání razítek do soutěže o ceny."
+        cs: "<span class='bold'>Hrajte s Toulavkou.</span> Na místech označených <span class='special bold'>černou</span> barvou získejte brožuru s mapou k pokladu na sbírání razítek do soutěže o ceny."
+    },
+    map: {
+        en: "",
+        cs: "Mapa"
+    },
+    places: {
+        en: "",
+        cs: "Místa"
     }
 };

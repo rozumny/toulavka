@@ -186,6 +186,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.2945133,
         lng: 14.4676314,
         type: 1,
@@ -266,6 +267,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.4145342,
         lng: 14.6681717,
         type: 2,
@@ -282,6 +284,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5745953,
         lng: 14.2815233,
         type: 2,
@@ -298,6 +301,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.4152569,
         lng: 14.6544031,
         type: 2,
@@ -442,6 +446,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.4501931,
         lng: 14.3599892,
         type: 2,
@@ -458,6 +463,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.6347867,
         lng: 14.6416622,
         type: 2,
@@ -474,6 +480,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.6648764,
         lng: 14.2931047,
         type: 2,
@@ -490,6 +497,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5984683,
         lng: 14.3829044,
         type: 3,
@@ -554,6 +562,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5637486,
         lng: 14.6169878,
         type: 3,
@@ -666,6 +675,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.4739392,
         lng: 14.6748589,
         type: 4,
@@ -682,6 +692,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.6034814,
         lng: 14.3099833,
         type: 4,
@@ -714,6 +725,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5438781,
         lng: 14.5163864,
         type: 4,
@@ -739,13 +751,14 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: "35% sleva na ubytování z pultové ceny, dle volné kapacity hotelu zdarma upgrade do vyšší kategorie pokoje; 10% sleva na konzumaci v hotelové restauraci "LaCave" (sleva se netýká nápojů); 20% sleva na mléčnou a pivní lázeň při zakoupení ubytování.<span class='color4'><br/><br/>Hradební 3037, Tábor, tel. 381 207 211<br/><span class='bold'>www.dvoraktabor.cz</span><br/>dvoraktabor@dvoraktabor.cz</span>"
+          cs: "35% sleva na ubytování z pultové ceny, dle volné kapacity hotelu zdarma upgrade do vyšší kategorie pokoje; 10% sleva na konzumaci v hotelové restauraci 'LaCave' (sleva se netýká nápojů); 20% sleva na mléčnou a pivní lázeň při zakoupení ubytování.<span class='color4'><br/><br/>Hradební 3037, Tábor, tel. 381 207 211<br/><span class='bold'>www.dvoraktabor.cz</span><br/>dvoraktabor@dvoraktabor.cz</span>"
         },
         images: [
           "44.jpg"
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5067125,
         lng: 14.4531592,
         type: 4,
@@ -762,6 +775,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5087075,
         lng: 14.5047603,
         type: 4,
@@ -778,6 +792,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5060681,
         lng: 14.6119631,
         type: 4,
@@ -794,6 +809,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5769181,
         lng: 14.5398258,
         type: 4,
@@ -810,6 +826,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5517783,
         lng: 14.5186169,
         type: 4,
@@ -826,6 +843,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.6390483,
         lng: 14.6438894,
         type: 4,
@@ -835,7 +853,7 @@ export class PointService {
         },
         description: {
           en: "",
-          cs: "Vstup na ROZHLEDNU VÁCLAVKA pro každého, kdo si u nás nacpe břich HLAVNÍM JÍDLEM a z kapsy mu "čouhá" Toulavka (jedna vstupenka za jednu Toulavku).<span class='color4'><br/><br/>Táborská 71, Votice, tel: 739 434 717<br/><span class='bold'>www.votice-ubytovani.cz</span><br/>modrakocka@atlas.cz</span>"
+          cs: "Vstup na ROZHLEDNU VÁCLAVKA pro každého, kdo si u nás nacpe břich HLAVNÍM JÍDLEM a z kapsy mu 'čouhá' Toulavka (jedna vstupenka za jednu Toulavku).<span class='color4'><br/><br/>Táborská 71, Votice, tel: 739 434 717<br/><span class='bold'>www.votice-ubytovani.cz</span><br/>modrakocka@atlas.cz</span>"
         },
         images: [
           "50.jpg"
@@ -874,6 +892,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.5957386,
         lng: 14.5061356,
         type: 4,
@@ -936,18 +955,19 @@ export class PointService {
         images: [
           "60.jpg"
         ]
-      },
-      {
-        type: 5,
-        title: {
-          en: "",
-          cs: "Zde můžete získat mapu k pokladu za sbírání razítek v soutěži o ceny."
-        },
-        description: {
-          en: "",
-          cs: "<span class='bold'>Infocentrum Město Tábor</span> (49.4141636, 14.6578281)<br/><br/><span class='bold'>Město Chýnov</span> (49.4062019, 14.8110406)<br/><br/><span class='bold'>TIC Planá nad Lužnicí</span> (49.3521411, 14.7043011)<br/><br/><span class='bold'>IC Vysoký Chlumec</span> (49.6172272, 14.3883475)<br/><br/><span class='bold'>RIS Sedlčany</span> (49.6581622, 14.4247197)<br/><br/><span class='bold'>IC Sedlec-Prčice</span> (49.5780347, 14.5406800)<br/><br/><span class='bold'>TIC Votice</span> (49.6385067, 14.6416417)<br/><br/><span class='bold'>TIC Mladá Vožice</span> (49.5324783, 14.8094225)<br/><br/><span class='bold'>Městské informační centrum Bechyně</span> (49.2945022, 14.4676531)<br/><br/><span class='bold'>IC Milevsko</span> (49.4501931, 14.3599892)<br/><br/><span class='bold'>IS Soběslav</span> (49.2592967, 14.7209972)
-        },
       }
+      // ,
+      // {
+      //   type: 5,
+      //   title: {
+      //     en: "",
+      //     cs: "Zde můžete získat mapu k pokladu za sbírání razítek v soutěži o ceny."
+      //   },
+      //   description: {
+      //     en: "",
+      //     cs: "<span class='bold'>Infocentrum Město Tábor</span> (49.4141636, 14.6578281)<br/><br/><span class='bold'>Město Chýnov</span> (49.4062019, 14.8110406)<br/><br/><span class='bold'>TIC Planá nad Lužnicí</span> (49.3521411, 14.7043011)<br/><br/><span class='bold'>IC Vysoký Chlumec</span> (49.6172272, 14.3883475)<br/><br/><span class='bold'>RIS Sedlčany</span> (49.6581622, 14.4247197)<br/><br/><span class='bold'>IC Sedlec-Prčice</span> (49.5780347, 14.5406800)<br/><br/><span class='bold'>TIC Votice</span> (49.6385067, 14.6416417)<br/><br/><span class='bold'>TIC Mladá Vožice</span> (49.5324783, 14.8094225)<br/><br/><span class='bold'>Městské informační centrum Bechyně</span> (49.2945022, 14.4676531)<br/><br/><span class='bold'>IC Milevsko</span> (49.4501931, 14.3599892)<br/><br/><span class='bold'>IS Soběslav</span> (49.2592967, 14.7209972)
+      //   },
+      // }
     ];
   }
 }
