@@ -4,9 +4,9 @@ import { NavController, NavParams } from 'ionic-angular';
 import { LocalStorageService } from '../../services/localStorageService';
 
 @Component({
-  templateUrl: 'poiDetail.html'
+  templateUrl: 'icDetail.html'
 })
-export class PoiDetailPage {
+export class IcDetailPage {
   poi: any;
   language: string;
   isHeight: boolean;

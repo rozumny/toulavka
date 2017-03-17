@@ -1,13 +1,13 @@
 import { Injectable } from "@angular/core";
 
 @Injectable()
-export class PointService {
+export class IcsService {
 
     constructor() {
 
     }
 
-    getPoints() {
+    getAll() {
         return [
             {
                 lat: 49.4141636,

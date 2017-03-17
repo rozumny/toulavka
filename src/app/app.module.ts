@@ -4,8 +4,10 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PoiList } from '../pages/poiList/poiList';
 import { PoiDetailPage } from '../pages/poiDetail/poiDetail';
+import { IcDetailPage } from '../pages/icDetail/icDetail';
 import { MapaPage } from '../pages/mapa/mapa';
 import { PointService } from '../services/pointService';
+import { IcsService } from '../services/icsService';
 import { LocalStorageService } from '../services/localStorageService';
 import { MemoryStorageService } from '../services/memoryStorageService';
 import { APP_TRANSLATIONS } from '../app/translations';
@@ -28,11 +30,14 @@ export class myTranslationLoader implements TranslateLoader {
     HomePage,
     PoiList,
     PoiDetailPage,
+    IcDetailPage,
     MapaPage
   ],
   imports: [
     TranslateModule.forRoot({ provide: TranslateLoader, useClass: myTranslationLoader }),
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      backButtonText: ''
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -40,10 +45,12 @@ export class myTranslationLoader implements TranslateLoader {
     HomePage,
     PoiList,
     PoiDetailPage,
+    IcDetailPage,
     MapaPage
   ],
   providers: [
     PointService,
+    IcsService,
     MemoryStorageService,
     LocalStorageService,
     { provide: ErrorHandler, useClass: IonicErrorHandler }

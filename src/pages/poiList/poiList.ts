@@ -24,4 +24,17 @@ export class PoiList {
   navigate(place: any) {
     this.navCtrl.push(PoiDetailPage, place);
   }
+
+  getColor(type: number) {
+    switch (type) {
+      case 1:
+        return "#e42521";
+      case 2:
+        return "#5d5700";
+      case 3:
+        return "#87004e";
+      case 4:
+        return "#72939b";
+    }
+  }
 }

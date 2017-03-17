@@ -10,7 +10,7 @@
   <div class="poiList">
     <ion-list>
       <ion-item *ngFor="let place of places; let i = index;" (click)="navigate(place)">
-        {{i+1 + '. ' + place.title[language]}}
+        <span [style.color]="getColor(place.type)">{{place.number + '. '}}</span> {{place.title[language]}}
       </ion-item>
     </ion-list>
   </div>

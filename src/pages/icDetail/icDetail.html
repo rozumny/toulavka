@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{poi.title[language]}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content id="scrollId">
+  <div padding class="poiDetail" [style.height]="isHeight ? '100%' : 'inherit'" id="innerId">
+    {{'icDetailText' | translate}}
+  </div>
+</ion-content>

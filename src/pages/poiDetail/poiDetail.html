@@ -1,20 +1,25 @@
 <ion-header>
   <ion-navbar>
-    <!--<ion-nav-back-button class="button-clear">
-      <i class="ion-arrow-left-c"></i>
-    </ion-nav-back-button>-->
-    <!--<button ion-button menuToggle right>
-      <ion-icon name="menu"></ion-icon>
-    </button>-->
     <ion-title>{{poi.title[language]}}</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content id="scrollId">
   <div padding class="poiDetail" [style.height]="isHeight ? '100%' : 'inherit'" id="innerId">
     <div [innerHTML]="poi.description[language]"></div>
+    <div *ngIf="poi.description2" [innerHTML]="poi.description2[language]"></div>
+    <br *ngIf="poi.hasTreasure" />
+    <div *ngIf="poi.hasTreasure">{{ 'icDetailText' | translate}}</div>
+    <br/>
+    <div>{{poi.address[language]}}</div>
+    <div *ngIf="poi.address2">{{poi.address2[language]}}</div>
+    <div *ngIf="poi.tel">{{'tel' | translate}} <a (click)="openTel(poi.tel[language])">{{poi.tel[language]}}</a></div>
+    <div *ngIf="poi.tel2"><a (click)="openTel(poi.tel2[language])">{{poi.tel2[language]}}</a></div>
+
+    <div><a (click)="openUrl(poi.link[language])">{{poi.link[language]}}</a></div>
+    <div><a (click)="openEmail(poi.email[language])">{{poi.email[language]}}</a></div>
     <br/>
     <div *ngFor="let image of poi.images">
-      <img src="assets/img/{{image}}">
+      <img src="assets/img/{{image}}" />
     </div>
   </div>
 </ion-content>
