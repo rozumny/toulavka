@@ -1887,7 +1887,7 @@ export class PointService {
           en: "",
           cs: "Hostel B. Bolzana, Tábor"
         },
-        number: "55",
+        number: "56",
         description: {
           en: "",
           cs: "Snížená cena za ubytování na Hostelu Bernarda Bolzana 218,- Kč/osoba/noc (min. 2 osoby na 3 noci)."
@@ -1909,7 +1909,7 @@ export class PointService {
           cs: "info@skolabolzano.cz"
         },
         images: [
-          "55.jpg"
+          "56.jpg"
         ]
       },
       {
