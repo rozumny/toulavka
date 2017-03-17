@@ -5,6 +5,14 @@
 </ion-header>
 <ion-content id="scrollId">
   <div padding class="poiDetail" [style.height]="isHeight ? '100%' : 'inherit'" id="innerId">
-    {{'icDetailText' | translate}}
+    <div>{{'icDetailText' | translate}}</div>
+    <br/>
+    <div>{{poi.address[language]}}</div>
+    <div *ngIf="poi.tel">{{'tel' | translate}} <a (click)="openTel(poi.tel[language])">{{poi.tel[language]}}</a></div>
+    <div *ngIf="poi.tel2"><a (click)="openTel(poi.tel2[language])">{{poi.tel2[language]}}</a></div>
+
+    <div><a (click)="openUrl(poi.link[language])">{{poi.link[language]}}</a></div>
+    <div><a (click)="openEmail(poi.email[language])">{{poi.email[language]}}</a></div>
+
   </div>
 </ion-content>

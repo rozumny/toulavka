@@ -16,6 +16,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "Infocentrum Město Tábor"
+                },
+                address: {
+                    en: "",
+                    cs: "Žižkovo nám. 2"
+                },
+                tel: {
+                    en: "",
+                    cs: "381 486 230"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@mutabor.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.visittabor.eu"
                 }
             },
             {
@@ -25,6 +41,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "Město Chýnov"
+                },
+                address: {
+                    en: "",
+                    cs: "Gabrielovo nám. 7"
+                },
+                tel: {
+                    en: "",
+                    cs: "381 297 647"
+                },
+                email: {
+                    en: "",
+                    cs: "knihovna@chynov.eu"
+                },
+                link: {
+                    en: "",
+                    cs: "www.chynov.cz"
                 }
             },
             {
@@ -34,6 +66,26 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "TIC Planá nad Lužnicí"
+                },
+                address: {
+                    en: "",
+                    cs: "ČSLA 1"
+                },
+                tel: {
+                    en: "",
+                    cs: "605 265 137"
+                },
+                tel2: {
+                    en: "",
+                    cs: "730 161 028"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@plananl.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.plananl.cz"
                 }
             },
             {
@@ -43,6 +95,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "IC Vysoký Chlumec"
+                },
+                address: {
+                    en: "",
+                    cs: "Vysoký Chlumec 14"
+                },
+                tel: {
+                    en: "",
+                    cs: "318 865 574"
+                },
+                email: {
+                    en: "",
+                    cs: "infovyschlumec@sedlcansko.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.vysokychlumec.eu"
                 }
             },
             {
@@ -52,6 +120,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "RIS Sedlčany"
+                },
+                address: {
+                    en: "",
+                    cs: "Nám. T. G. Masaryka 32"
+                },
+                tel: {
+                    en: "",
+                    cs: "318 821 158"
+                },
+                email: {
+                    en: "",
+                    cs: "ris@mesto-sedlcany.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.mesto-sedlcany.cz"
                 }
             },
             {
@@ -61,6 +145,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "IC Sedlec-Prčice"
+                },
+                address: {
+                    en: "",
+                    cs: "Vítkovo nám. 69"
+                },
+                tel: {
+                    en: "",
+                    cs: "317 834 328"
+                },
+                email: {
+                    en: "",
+                    cs: "infoops@ceskymeran.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.sedlec-prcice.cz"
                 }
             },
             {
@@ -70,6 +170,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "TIC Votice"
+                },
+                address: {
+                    en: "",
+                    cs: "Komenského nám. 177"
+                },
+                tel: {
+                    en: "",
+                    cs: "317 812 505"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@votice.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.mesto-votice.cz"
                 }
             },
             {
@@ -79,6 +195,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "TIC Mladá Vožice"
+                },
+                address: {
+                    en: "",
+                    cs: "Žižkovo náměstí 80"
+                },
+                tel: {
+                    en: "",
+                    cs: "381 201 921"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@mu-vozice.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "new.mu-vozice.cz"
                 }
             },
             {
@@ -88,6 +220,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "Městské informační centrum Bechyně"
+                },
+                address: {
+                    en: "",
+                    cs: "Nám. T. G. Masaryka 140"
+                },
+                tel: {
+                    en: "",
+                    cs: "778 545 509"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@kulturnidum.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.kulturnidum.cz/infocentrum"
                 }
             },
             {
@@ -97,6 +245,22 @@ export class IcsService {
                 title: {
                     en: "",
                     cs: "IC Milevsko"
+                },
+                address: {
+                    en: "",
+                    cs: "Nám. E. Beneše 6"
+                },
+                tel: {
+                    en: "",
+                    cs: "383 809 101"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@milevskem.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.milevskem.cz"
                 }
             },
             {
@@ -107,6 +271,22 @@ export class IcsService {
                     en: "",
                     cs: "IS Soběslav"
                 },
+                address: {
+                    en: "",
+                    cs: "Nám. Republiky 148/4"
+                },
+                tel: {
+                    en: "",
+                    cs: "601 339 095"
+                },
+                email: {
+                    en: "",
+                    cs: "infocentrum@musobeslav.cz"
+                },
+                link: {
+                    en: "",
+                    cs: "www.musobeslav.cz"
+                }
             }
         ];
     }
