@@ -1,19 +1,24 @@
 .home {
     background-color: colors($colors,primary);
     
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+}
+
     scroll-content {
         overflow-y: hidden !important;
     }
 
     .cover-image {
-        background: url("../../assets/background.png") no-repeat 35% 10%;
+        background: url("../assets/background.png") no-repeat 35% 10%;
         background-size: cover;
         height: 100%;
         background-position: 50% 40%;
     }
 
     .cover-image2 {
-        background: url("../../assets/banner.png") no-repeat;
+        background: url("../assets/banner.png") no-repeat;
         background-position: center top;
         background-size: 100% 200px;
         height: 100%;
@@ -42,12 +47,12 @@
     }
 
      .cover-card {
-        background: url("../../assets/card.png") no-repeat 35% 10%;
+        background: url("../assets/card.png") no-repeat 35% 10%;
         background-position: 50% 40%;
     }
 
     .menu {
-        position:absolute;
+        position:fixed;
         color:white;
         top: 13px;
         right: 17px;
@@ -58,7 +63,7 @@
  .map {
         height:56px;
         width: 100%;
-        background: url("../../assets/mapa.jpg") no-repeat;
+        background: url("../assets/mapa.jpg") no-repeat;
         background-size: cover;
         background-position: 47% 48%;
 }

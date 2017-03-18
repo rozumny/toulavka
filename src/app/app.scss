@@ -22,3 +22,7 @@
 .special {
     color: color($colors, dark);
 }
+
+.no-scroll .scroll-content{
+     overflow: hidden;
+}

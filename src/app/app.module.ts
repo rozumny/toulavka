@@ -36,7 +36,8 @@ export class myTranslationLoader implements TranslateLoader {
   imports: [
     TranslateModule.forRoot({ provide: TranslateLoader, useClass: myTranslationLoader }),
     IonicModule.forRoot(MyApp, {
-      backButtonText: ''
+      backButtonText: '',
+      statusbarPadding: false
     })
   ],
   bootstrap: [IonicApp],
