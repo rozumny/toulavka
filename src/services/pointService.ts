@@ -179,8 +179,8 @@ export class PointService {
         ]
       },
       {
-        lat: 49.4141636,
-        lng: 14.6578281,
+        lat: 49.4140689,
+        lng: 14.6578325,
         type: 1,
         title: {
           en: "",
@@ -390,8 +390,8 @@ export class PointService {
       },
       {
         hasTreasure: true,
-        lat: 49.2945133,
-        lng: 14.4676314,
+        lat: 49.2943061,
+        lng: 14.4676853,
         type: 1,
         title: {
           en: "",
@@ -934,8 +934,8 @@ export class PointService {
       },
       {
         hasTreasure: true,
-        lat: 49.4501931,
-        lng: 14.3599892,
+        lat: 49.4501319,
+        lng: 14.3599408,
         type: 2,
         title: {
           en: "",
