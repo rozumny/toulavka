@@ -235,7 +235,7 @@ export class IcsService {
                 },
                 link: {
                     en: "",
-                    cs: "www.kulturnidum.cz/infocentrum"
+                    cs: "www.kulturnidum.cz"
                 }
             },
             {

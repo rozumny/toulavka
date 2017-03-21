@@ -15,6 +15,10 @@ export var APP_TRANSLATIONS: { [key: string]: { [key: string]: string } } = {
         en: "",
         cs: "Toulavka - elektronická zážitková karta"
     },
+    poiDetailTitle: {
+        en: "",
+        cs: "Bonus s elektronickou kartou Toulavka: "
+    },
     map: {
         en: "",
         cs: "Mapa"

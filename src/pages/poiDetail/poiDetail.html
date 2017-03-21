@@ -5,6 +5,8 @@
 </ion-header>
 <ion-content id="scrollId">
   <div padding class="poiDetail" [style.height]="isHeight ? '100%' : 'inherit'" id="innerId">
+    <div>{{'poiDetailTitle' | translate}}</div>
+    <br/>
     <div [innerHTML]="poi.description[language]"></div>
     <div *ngIf="poi.description2" [innerHTML]="poi.description2[language]"></div>
     <br *ngIf="poi.hasTreasure" />

@@ -182,6 +182,7 @@ export class PointService {
         lat: 49.4140689,
         lng: 14.6578325,
         type: 1,
+        hasTreasure: true,
         title: {
           en: "",
           cs: "Město Tábor"
