@@ -1881,6 +1881,7 @@ export class PointService {
         ]
       },
       {
+        hasTreasure: true,
         lat: 49.4128567,
         lng: 14.6607186,
         type: 4,
@@ -1891,7 +1892,7 @@ export class PointService {
         number: "55",
         description: {
           en: "",
-          cs: "Snížená cena za ubytování na Hostelu Bernarda Bolzana 218,- Kč/osoba/noc (min. 2 osoby na 3 noci).<br/>Zde můžete získat mapu k pokladu."
+          cs: "Snížená cena za ubytování na Hostelu Bernarda Bolzana 218,- Kč/osoba/noc (min. 2 osoby na 3 noci)."
         },
         address: {
           en: "",
