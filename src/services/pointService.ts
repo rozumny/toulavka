@@ -1891,7 +1891,7 @@ export class PointService {
         number: "55",
         description: {
           en: "",
-          cs: "Snížená cena za ubytování na Hostelu Bernarda Bolzana 218,- Kč/osoba/noc (min. 2 osoby na 3 noci)."
+          cs: "Snížená cena za ubytování na Hostelu Bernarda Bolzana 218,- Kč/osoba/noc (min. 2 osoby na 3 noci).<br/>Zde můžete získat mapu k pokladu."
         },
         address: {
           en: "",
@@ -1961,7 +1961,7 @@ export class PointService {
         },
         address: {
           en: "",
-          cs: "Svatošova 307"
+          cs: "Žižkova 249, Střelnice - spolkový dům, Tábor"
         },
         tel: {
           en: "",
