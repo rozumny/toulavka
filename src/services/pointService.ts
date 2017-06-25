@@ -109,39 +109,6 @@ export class PointService {
         ]
       },
       {
-        lat: 49.4563411,
-        lng: 14.3680847,
-        type: 1,
-        title: {
-          en: "",
-          cs: "Klášter Milevsko"
-        },
-        number: "4",
-        description: {
-          en: "",
-          cs: "Sleva 20 % ze vstupného na prohlídku pro držitele karty."
-        },
-        address: {
-          en: "",
-          cs: "U Bažantnice 556, Milevsko"
-        },
-        tel: {
-          en: "",
-          cs: "606 201 780"
-        },
-        link: {
-          en: "",
-          cs: "www.klastermilevsko.cz"
-        },
-        email: {
-          en: "",
-          cs: "prohlidky@klastermilevsko.cz"
-        },
-        images: [
-          "4.jpg"
-        ]
-      },
-      {
         lat: 49.3898372,
         lng: 14.7229983,
         type: 1,
@@ -243,6 +210,39 @@ export class PointService {
         },
         images: [
           "7.jpg"
+        ]
+      },
+      {
+        lat: 49.4571494,
+        lng: 14.3649956,
+        type: 1,
+        title: {
+          en: "",
+          cs: "Klášter Milevsko"
+        },
+        number: "4",
+        description: {
+          en: "",
+          cs: "Sleva 20 % ze vstupného na prohlídku pro držitele karty."
+        },
+        address: {
+          en: "",
+          cs: "U Bažantnice 556, Milevsko"
+        },
+        tel: {
+          en: "",
+          cs: "607 129 740"
+        },
+        link: {
+          en: "",
+          cs: "www.klastermilevsko.cz"
+        },
+        email: {
+          en: "",
+          cs: "prohlidky@klastermilevsko.cz"
+        },
+        images: [
+          "4.jpg"
         ]
       },
       {
